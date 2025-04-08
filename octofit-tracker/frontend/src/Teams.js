@@ -13,9 +13,9 @@ function Teams() {
 
   return (
     <div>
-      <h1>Teams</h1>
-      <table className="table">
-        <thead>
+      <h1 className="text-info">Teams</h1>
+      <table className="table table-bordered">
+        <thead className="table-dark">
           <tr>
             <th>#</th>
             <th>Team Name</th>

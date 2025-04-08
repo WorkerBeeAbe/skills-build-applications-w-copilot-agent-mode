@@ -13,9 +13,9 @@ function Workouts() {
 
   return (
     <div>
-      <h1>Workouts</h1>
-      <table className="table">
-        <thead>
+      <h1 className="text-danger">Workouts</h1>
+      <table className="table table-hover">
+        <thead className="table-dark">
           <tr>
             <th>#</th>
             <th>Workout Name</th>

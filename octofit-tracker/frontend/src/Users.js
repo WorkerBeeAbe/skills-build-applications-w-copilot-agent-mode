@@ -13,9 +13,9 @@ function Users() {
 
   return (
     <div>
-      <h1>Users</h1>
-      <table className="table">
-        <thead>
+      <h1 className="text-warning">Users</h1>
+      <table className="table table-striped">
+        <thead className="table-dark">
           <tr>
             <th>#</th>
             <th>Username</th>
