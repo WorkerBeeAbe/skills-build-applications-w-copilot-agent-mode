@@ -4,7 +4,7 @@ function Leaderboard() {
   const [leaderboard, setLeaderboard] = useState([]);
 
   useEffect(() => {
-    const baseUrl = 'https://solid-space-couscous-v4xrw4qjj6j3ppw-8000.app.github.dev';
+    const baseUrl = 'https://solid-space-couscous-v4xrw4qjj6j3ppw-8000.app.github.dev/api/leaderboard/';
     fetch(`${baseUrl}/api/leaderboard/`)
       .then(response => response.json())
       .then(data => setLeaderboard(data))
