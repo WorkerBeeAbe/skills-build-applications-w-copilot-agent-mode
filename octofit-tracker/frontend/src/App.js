@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Activities from './Components/Activities';
-import Leaderboard from './Components/Leaderboard';
-import Teams from './Components/Teams';
-import Users from './Components/Users';
+import Activities from './Activities';
+import Leaderboard from './Leaderboard';
+import Teams from './Teams';
+import Users from './Users';
 import Workouts from './Workouts';
 import './App.css';
 
